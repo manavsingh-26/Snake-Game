@@ -3,9 +3,9 @@
 ## The famous snake game made in python using turtle graphics
 
 ### About game:
-#### The snake will grow in size whenever it eats food and
-#### you have to make sure the snake doesnt touch the boundary or its tail
-#### otherwise it is game over.
+####                 The snake will grow in size whenever it eats food and
+####                 you have to make sure the snake doesnt touch the boundary or its tail
+####                 otherwise it is game over.
 
 ### Controls:
 #### Up: For moving the snake up
