@@ -21,4 +21,4 @@
 ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;scoreboard.py: It maintains the scoreboard. You gain a score whenever the snake its the food
 
 ### Snapshot:
-&nbsp;&nbsp;&nbsp;&nbsp; ![image](https://user-images.githubusercontent.com/54039581/121778603-3d20a200-cbb5-11eb-867a-5bc5d4e8f23e.png = 200x200)
+&nbsp;&nbsp;&nbsp;&nbsp; ![image](https://user-images.githubusercontent.com/54039581/121778603-3d20a200-cbb5-11eb-867a-5bc5d4e8f23e.png)
