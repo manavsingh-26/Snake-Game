@@ -11,7 +11,11 @@ class Score(Turtle):
         self.hideturtle()
         self.penup()
         self.points =0
-        self.high_score = 0
+        
+        with open("data.txt") as file:
+           content = int(file.read()) 
+        
+        self.high_score = content
         self.color("black")
         self.goto(-20,260)
         self.write(f"Score:{self.points}||High Score:{self.high_score}",align=ALIGNMENT,font=FONT)         
@@ -29,6 +33,10 @@ class Score(Turtle):
         
         if self.points > self.high_score:
             self.high_score = self.points
+            new_hscore = str(self.high_score) 
+            with open("data.txt",mode="w") as file:
+                file.write(new_hscore)
+                
         self.points = 0
         self.update()
         
